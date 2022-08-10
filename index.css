@@ -1,0 +1,45 @@
+body{
+    background-image:url(foodbackground.jpg);
+}
+form{
+margin: auto;
+width: 650px;
+height: 500px;
+border-spacing: 50px;
+color: rgb(4, 64, 73);
+font-size: 100%;
+background-color:rgb(70, 187, 216);
+display: center;
+}
+div{
+    margin-inline: 20px;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: center;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(55, 172, 226);
+}
+li {
+    float: center;
+}
+li a {
+    display: block;
+    color: rgb(16, 2, 29);
+    text-align: center;
+    text-decoration-color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+ul a:hover {
+    background-color: rgb(54, 206, 168);
+}
